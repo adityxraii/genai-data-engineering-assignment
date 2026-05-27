@@ -91,7 +91,7 @@ Return JSON only.
 """
 
             response = client.models.generate_content(
-                model="gemini-2.0-flash",
+                model="gemini-3.5-flash",
                 contents=prompt
             )
 
@@ -175,7 +175,7 @@ Generate 10 rows.
 """
 
                 response = client.models.generate_content(
-                    model="gemini-2.0-flash",
+                    model="gemini-3.5-flash",
                     contents=prompt
                 )
 
@@ -290,7 +290,7 @@ Question:
 """
 
             response = client.models.generate_content(
-                model="gemini-2.0-flash",
+                model="gemini-3.5-flash",
                 contents=prompt
             )
 
@@ -339,7 +339,7 @@ to SQLite query
 """
 
             response = client.models.generate_content(
-                model="gemini-2.0-flash",
+                model="gemini-3.5-flash",
                 contents=prompt
             )
 
