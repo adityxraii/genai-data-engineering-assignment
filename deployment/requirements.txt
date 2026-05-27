@@ -1,0 +1,7 @@
+google-generativeai
+pandas
+pypdf
+python-dotenv
+sqlalchemy
+streamlit
+python-docx
